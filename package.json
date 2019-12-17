@@ -1,0 +1,19 @@
+{
+  "name": "electronmoi",
+  "version": "1.0.0",
+  "description": "Test de creation electronapp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Cazzoli",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.4"
+  },
+  "dependencies": {
+    "node-notifier": "^6.0.0"
+  }
+
+
+}
