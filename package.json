@@ -9,11 +9,10 @@
   "author": "Cazzoli",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.4"
+    "electron": "^7.1.4",
+    "electron-store": "^5.1.0"
   },
   "dependencies": {
     "node-notifier": "^6.0.0"
   }
-
-
 }
