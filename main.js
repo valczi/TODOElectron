@@ -15,13 +15,14 @@ const DataStore =require('./DataStore')
               .addTodo('Create todo app')
               .addTodo('another todo')
               .addTodo('one more todo')
-              .deleteTodo('another todo')*/
+              .deleteTodo('another todo')
 
-    console.log(todosData.todos)
+    console.log(todosData.todos)*/
 
     let mainWindow = new Window({
       file:'index.html'
     })
+    mainWindow.setIcon('kebab.png')
   }
 
 // This method will be called when Electron has finished
