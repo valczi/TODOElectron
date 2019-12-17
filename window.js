@@ -23,5 +23,6 @@ class Window extends BrowserWindow{
       this.show()
     })
   }
+}
 
 module.exports=Window

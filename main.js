@@ -1,17 +1,24 @@
 const Window  = require('./window')
 const {app}=require('electron')
-const todosData=new DataStore({name:'Todos Main'})
+const DataStore =require('./DataStore')
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 
-todosData.addTodo('Create todo app')
-          .addTodo('another todo')
-          .addTodo('one more todo')
-          .deleteTodo('another todo')
 
-console.log(todosDate.todos)
 
   function main(){
+
+    //test DataStore
+  /*  let todosData=new DataStore({name:'main todo'})
+    todosData
+              .addTodo('Create todo app')
+              .addTodo('another todo')
+              .addTodo('one more todo')
+              .deleteTodo('another todo')*/
+
+    console.log(todosData.todos)
+
     let mainWindow = new Window({
       file:'index.html'
     })

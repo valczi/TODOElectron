@@ -4,7 +4,7 @@ class DataStore extends Store{
   constructor (settings){
     // same as new Store(settings)
     super(settings)
-  }
+
   //initialize todos with empty arrays
   this.todos=this.get('todos')|| []
 }
