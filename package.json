@@ -9,7 +9,7 @@
   "author": "Cazzoli",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.4",
+    "electron": "^9.4.0",
     "electron-store": "^5.1.0"
   },
   "dependencies": {
